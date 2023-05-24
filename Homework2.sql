@@ -57,3 +57,7 @@ CASE
 		THEN 'Order is cancelled'
 END AS full_order_status
 FROM orders;
+
+/* 
+NULL - отсутсвующее значение, а 0 - числовое значение "ноль"
+*/
